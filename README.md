@@ -12,3 +12,5 @@
   **Composing Posts:** Posts are primarily text-based but support features like 'Reply Posts' and 'Quote Posts' with previews. Posts are parsed for hashtags and usernames, which are clickable. An emoji picker (emoji-mart) is available for convenient emoji insertion, and link previews are displayed using react-tiny-link.
 
   **Styling (Bootstrap):** The application's styling is achieved using Bootstrap, with customization involving Sass variables, class extension, and custom classes. The design is responsive, ensuring a pleasant user experience on various devices.
+
+**Hosted Link**: https://main--stupendous-kringle-eb015e.netlify.app/
