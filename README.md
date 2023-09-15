@@ -1,4 +1,4 @@
-### Twitter-Clone
+# Twitter-Clone
 **Hosted Link**: https://main--stupendous-kringle-eb015e.netlify.app/
 
 ## Features:
@@ -16,7 +16,7 @@
 
 - **Styling (Bootstrap):** The application's styling is achieved using Bootstrap, with customization involving Sass variables, class extension, and custom classes. The design is responsive, ensuring a pleasant user experience on various devices.
 
-## Things Used:
+## Things Used in Backend:
 
 - `Express`: For server.
 
