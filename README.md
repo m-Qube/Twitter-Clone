@@ -1,4 +1,4 @@
-# Twitter-Clone
+### Twitter-Clone
 **Hosted Link**: https://main--stupendous-kringle-eb015e.netlify.app/
 
   **State Management (Redux Toolkit):** The application follows the DUCKS file pattern and utilizes Redux Toolkit for global state management. Most state, including Posts and Users in normalized form, is stored in the Redux store. The createAdapter feature simplifies access to these entities through CRUD methods and selectors.
@@ -15,21 +15,21 @@
 
   **Styling (Bootstrap):** The application's styling is achieved using Bootstrap, with customization involving Sass variables, class extension, and custom classes. The design is responsive, ensuring a pleasant user experience on various devices.
 
-## Things used
+## Things Used:
 
-- `Express` for server.
+- `Express`: For server.
 
-- `MongoDB` for database and a full text search!
+- `MongoDB`: For database and a full text search!
 
-- `Mongoose` as *Mongo* driver and for model and schema validation.
+- `Mongoose`: as *Mongo* driver and for model and schema validation.
 
-- `Passport` with Local strategy for authentication.
+- `Passport`: With Local strategy for authentication.
 
-- `Bcryptjs` for password hashing.
+- `Bcryptjs`: For password hashing.
 
-- `Cookies/express-session/connect-mongo` for session management and storage
+- `Cookies/express-session/connect-mongo`: For session management and storage
 
-## File structure.
+## File Structure:
 
 - `app.js` - main express app file.
 - `passport.js` auth strategy and serialization.
@@ -45,15 +45,13 @@
 - `utils/`
   - contains some utility functions.
 
-# Deploying
+# For Deploying:
 
 You will need to set some environment variable, below is the example `.env` file.
 
 ```bash
 MONGO_URL=<link to atlas address or wherever your mongoDB is deployed, defaults to 'mongodb://localhost/test'>
 SESSION_SECRET=<passed to session middleware, defaults to 'my shitty session secret'>
-
-
 
 - `npm install` to install dependencies.
 - `npm run dev` to start development server with `nodemon`.
