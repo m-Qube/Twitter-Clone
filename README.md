@@ -46,7 +46,7 @@
 - `utils/`
   - contains some utility functions.
 
-# For Deploying:
+## For Deploying:
 
 You will need to set some environment variable, below is the example `.env` file.
 
