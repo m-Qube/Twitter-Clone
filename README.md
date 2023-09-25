@@ -51,7 +51,7 @@ You will need to set some environment variable, below is the example `.env` file
 
 ```bash
 MONGO_URL=<link to atlas address or wherever your mongoDB is deployed, defaults to 'mongodb://localhost/test'>
-SESSION_SECRET=<passed to session middleware, defaults to 'my shitty session secret'>
+SESSION_SECRET=<passed to session middleware, defaults to 'hehe'>
 
 - `npm install` to install dependencies.
 - `npm run dev` to start development server with `nodemon`.
