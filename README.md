@@ -1,5 +1,4 @@
 # Twitter-Clone
-**Hosted Link**: https://main--stupendous-kringle-eb015e.netlify.app/
 
 ## Features:
 - **State Management (Redux Toolkit):** The application follows the DUCKS file pattern and utilizes Redux Toolkit for global state management. Most state, including Posts and Users in normalized form, is stored in the Redux store. The createAdapter feature simplifies access to these entities through CRUD methods and selectors.
